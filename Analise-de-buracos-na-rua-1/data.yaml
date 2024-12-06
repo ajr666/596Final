@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Buraco']
+
+roboflow:
+  workspace: projetos-fensd
+  project: analise-de-buracos-na-rua
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projetos-fensd/analise-de-buracos-na-rua/dataset/1
